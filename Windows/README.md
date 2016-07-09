@@ -8,13 +8,23 @@ and that's it.
 
 Now in your folder you have 2 interesting things
 * WinPython Command Prompt.exe - command line with the python env. already configured
-so if you want to start a python file you just write `python python-path.py`
+so if you want to start a python file you just write `python python-script-path.py`
 
 * Spyder.exe - Python IDE
 An easy environment to use python
 
 
 # Opencv for python
+* download pre-compiled package from http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv (for python-2.7)
+* open the WinPython Command Prompt.exe as stated above ^
+* `pip install pip --upgrade`
+* `pip install numpy --upgrade`
+* `pip install path-to-downloaded-opencv-packge.whl`
+and that's it.
+Note that pip is the python package manager it works in windows and linux
+Some of the packages pip is trying to install are using C/C++ code and should be compiled
+So in that case you can download wheell files from http://www.lfd.uci.edu/~gohlke/pythonlibs/
+Or download a suitable compiler https://www.microsoft.com/en-us/download/details.aspx?id=44266
 
 
 # Arduino IDE
